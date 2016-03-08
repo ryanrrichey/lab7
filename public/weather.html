@@ -2,6 +2,7 @@
 <head>
 <title>City Finder</title>
 <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+<!-- <script src="http://maps.googleapis.com/maps/api/js?key=AIzaSyBpwMCuPdLsNlZGARiW1yFKDtsaoDkd1I4"></script> -->
 
 <script>
 $(document).ready(function() {
@@ -9,13 +10,13 @@ $(document).ready(function() {
 		var url = //"https://students.cs.byu.edu/~clement/CS360/ajax/getcity.cgi?q="+$("#cityfield").val();
 		"../getcity?q="+$("#cityfield").val();
 		$.getJSON(url,function(data) {
-	    var everything;
-	    everything = "<ul>";
-	    $.each(data, function(i,item) {
-	    	everything += "<li> "+data[i].city;
-	    });
-	    everything += "</ul>";
-	    $("#txtHint").html(everything);
+		    var everything;
+		    everything = "<ul>";
+		    $.each(data, function(i,item) {
+		    	everything += "<li> "+data[i].city;
+		    });
+	    	everything += "</ul>";
+	    	$("#txtHint").html(everything);
 	  })
 	  .done(function() { console.log('getJSON request succeeded!'); })
 	  .fail(function(jqXHR, textStatus, errorThrown) { 
@@ -31,8 +32,48 @@ $(document).ready(function() {
 	  var value = $("#cityfield").val();
 	  console.log(value);
 	  e.preventDefault();
+	  
 	  $("#dispcity").text(value);
 	});
+	
+	
+	//var giturl = "../getgit?q=";
+	$.getJSON("https://api.github.com/users/ryanrrichey",function(data) {
+		
+		// var githubjunk = [];
+//  		for(var i=0;i<data.length; i++){
+// 			if (data[i] == "login")
+// 			{
+// 				githubjunk.push(data[i]);
+// 			}
+// 			if (data[i] == "url")
+// 			{
+// 				githubjunk.push(data[i]);
+// 			}
+// 			if (data[i] == "followers")
+// 			{
+// 				githubjunk.push(data[i]);
+// 			}
+//
+// 		}
+// 		//githubjunk.
+		//console.log(githubjunk);
+		
+		
+		// var output;
+// 		output  = "<ul>";
+// 	    $.each(data, function(i,item) {
+// 	    	output += "<li> "+data[i];
+// 	    });
+//     	output += "</ul>";
+    	$("#github").html("username: " + data.login + "<br>" + "url: " + data.url 							+ "<br>" + "followers: " + data.followers);
+	});
+	
+	
+	
+	
+	
+	
 });
 </script>
 
@@ -47,8 +88,8 @@ Suggestion: <span id="txtHint">Empty</span>
 </form>
 <p>City</p>
 <textarea id="dispcity">No City</textarea>
-<p>Current Weather</p>
-<div id="weather">No weather</div>
+<p>GitHub info</p>
+<div id= "github"></div>
 
 </body>
 </html>
