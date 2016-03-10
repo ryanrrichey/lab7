@@ -14,32 +14,32 @@ router.get('/', function(req, res, next) {
 // });
 
 
-router.get('/getgit',function(req,res,next){
+router.get('/getgit',function(req,res,next)
+{
 	
 	var githubjunk = [];
 	console.log("in getgit");
-	fs.readFile("https://api.github.com/users/ryanrrichey",function(err,data) {
-    	if(err) throw err;
- 		for(var i=0;i<data.length; i++){
-			if (data[i] == "login")
-			{
-				githubjunk.push(data[i]);
-			}
-			if (data[i] == "url")
-			{
-				githubjunk.push(data[i]);
-			}
-			if (data[i] == "followers")
-			{
-				githubjunk.push(data[i]);
-			}
-
-		}
+	//fs.readFile("https://api.github.com/users/ryanrrichey",function(err,data) {
+    	//if(err) throw err;
+ 		// for(var i=0;i<data.length; i++){
+// 			if (data[i] == "login")
+// 			{
+// 				githubjunk.push(data[i]);
+// 			}
+// 			if (data[i] == "url")
+// 			{
+// 				githubjunk.push(data[i]);
+// 			}
+// 			if (data[i] == "followers")
+// 			{
+// 				githubjunk.push(data[i]);
+// 			}
+//
+// 		}
 // 		//githubjunk.
 		console.log(githubjunk);
 		res.status(200).json(githubjunk);
 	});
-});
 	
 	
 router.get('/getcity',function(req,res,next) {
@@ -71,3 +71,4 @@ router.get('/getcity',function(req,res,next) {
 		  
 		  
 module.exports = router;
+

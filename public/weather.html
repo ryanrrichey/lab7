@@ -42,14 +42,19 @@ $(document).ready(function() {
 	  urlbase+= value;
 	  
 	  
-  	  $.ajax({url: urlbase, success: function(result)
+  	  $.ajax({url: urlbase,
+		   success: function(result)
 		  {
-  	          $("#div1").html(result);
+			  $("#realname").text('Name: ' + result['login']);
+			  $("#followers").text('Followers: ' + result['followers']);
+			  $("#url").attr('href', result['html_url']);
+			  $("#url").text(result['html_url']);
+			  $("#gravatar").attr('src', result['avatar_url']);
+			  
 			  console.log(result);
   	      }
 		  
 	  });
-  	  $("#github").text(result);
   	});
 
 	
@@ -82,7 +87,10 @@ Suggestion: <span id="txtHint">Empty</span>
 Enter A github username: <input type="text" id="userfield" value=""><br>
 <input id="button2" type="submit" value=" fetch github username">
 <p>GitHub info</p>
-<div id= "github"></div>
+<div id= "realname">Name: </div>
+<div id= "followers">Followers: </div>
+<div>URL: <a id="url"></a></div>
+<img id="gravatar" />
 
 </body>
 </html>
