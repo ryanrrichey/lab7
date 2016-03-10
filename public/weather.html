@@ -7,8 +7,8 @@
 <script>
 $(document).ready(function() {
 	$( "#cityfield" ).keyup(function() {
-		var url = //"https://students.cs.byu.edu/~clement/CS360/ajax/getcity.cgi?q="+$("#cityfield").val();
-		"../getcity?q="+$("#cityfield").val();
+		//var url = "https://students.cs.byu.edu/~clement/CS360/ajax/getcity.cgi?q="+$("#cityfield").val();
+		var url = "../getcity?q="+$("#cityfield").val();
 		$.getJSON(url,function(data) {
 		    var everything;
 		    everything = "<ul>";
@@ -33,41 +33,30 @@ $(document).ready(function() {
 	  console.log(value);
 	  e.preventDefault();
 	  
-	  $("#dispcity").text(value);
+	  
 	});
 	
+	$("#button2").click(function(e){
+	  var value = $("#userfield").val();
+  	  var urlbase =  "https://api.github.com/users/";
+	  urlbase+= value;
+	  
+	  
+  	  $.ajax({url: urlbase, success: function(result)
+		  {
+  	          $("#div1").html(result);
+			  console.log(result);
+  	      }
+		  
+	  });
+  	  $("#github").text(result);
+  	});
+
 	
 	//var giturl = "../getgit?q=";
-	$.getJSON("https://api.github.com/users/ryanrrichey",function(data) {
-		
-		// var githubjunk = [];
-//  		for(var i=0;i<data.length; i++){
-// 			if (data[i] == "login")
-// 			{
-// 				githubjunk.push(data[i]);
-// 			}
-// 			if (data[i] == "url")
-// 			{
-// 				githubjunk.push(data[i]);
-// 			}
-// 			if (data[i] == "followers")
-// 			{
-// 				githubjunk.push(data[i]);
-// 			}
-//
-// 		}
-// 		//githubjunk.
-		//console.log(githubjunk);
-		
-		
-		// var output;
-// 		output  = "<ul>";
-// 	    $.each(data, function(i,item) {
-// 	    	output += "<li> "+data[i];
-// 	    });
-//     	output += "</ul>";
-    	$("#github").html("username: " + data.login + "<br>" + "url: " + data.url 							+ "<br>" + "followers: " + data.followers);
-	});
+	
+    	//$("#github").html("username: " + data.login + "<br>" + "url: " + data.url 							+ "<br>" + "followers: " + data.followers);
+		//});
 	
 	
 	
@@ -88,6 +77,10 @@ Suggestion: <span id="txtHint">Empty</span>
 </form>
 <p>City</p>
 <textarea id="dispcity">No City</textarea>
+
+
+Enter A github username: <input type="text" id="userfield" value=""><br>
+<input id="button2" type="submit" value=" fetch github username">
 <p>GitHub info</p>
 <div id= "github"></div>
 
