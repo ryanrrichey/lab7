@@ -1,0 +1,2062 @@
+nohup: ignoring input
+
+> cities@0.0.0 start /home/bitnami/inclass/cities
+> node ./bin/www
+
+IncomingMessage {
+  _readableState: 
+   ReadableState {
+     objectMode: false,
+     highWaterMark: 16384,
+     buffer: [],
+     length: 0,
+     pipes: null,
+     pipesCount: 0,
+     flowing: null,
+     ended: true,
+     endEmitted: false,
+     reading: false,
+     sync: true,
+     needReadable: false,
+     emittedReadable: true,
+     readableListening: false,
+     defaultEncoding: 'utf8',
+     ranOut: false,
+     awaitDrain: 0,
+     readingMore: false,
+     decoder: null,
+     encoding: null },
+  readable: true,
+  domain: null,
+  _events: {},
+  _eventsCount: 0,
+  _maxListeners: undefined,
+  socket: 
+   Socket {
+     _connecting: false,
+     _hadError: false,
+     _handle: 
+      TCP {
+        _externalStream: {},
+        fd: 11,
+        reading: true,
+        owner: [Circular],
+        onread: [Function: onread],
+        onconnection: null,
+        writeQueueSize: 0 },
+     _parent: null,
+     _host: null,
+     _readableState: 
+      ReadableState {
+        objectMode: false,
+        highWaterMark: 16384,
+        buffer: [],
+        length: 0,
+        pipes: null,
+        pipesCount: 0,
+        flowing: true,
+        ended: false,
+        endEmitted: false,
+        reading: true,
+        sync: false,
+        needReadable: true,
+        emittedReadable: false,
+        readableListening: false,
+        defaultEncoding: 'utf8',
+        ranOut: false,
+        awaitDrain: 0,
+        readingMore: false,
+        decoder: null,
+        encoding: null,
+        resumeScheduled: false },
+     readable: true,
+     domain: null,
+     _events: 
+      { end: [Object],
+        finish: [Function: onSocketFinish],
+        _socketEnd: [Function: onSocketEnd],
+        drain: [Object],
+        timeout: [Function],
+        error: [Object],
+        close: [Object],
+        data: [Function: socketOnData],
+        resume: [Function: onSocketResume],
+        pause: [Function: onSocketPause] },
+     _eventsCount: 10,
+     _maxListeners: undefined,
+     _writableState: 
+      WritableState {
+        objectMode: false,
+        highWaterMark: 16384,
+        needDrain: false,
+        ending: false,
+        ended: false,
+        finished: false,
+        decodeStrings: false,
+        defaultEncoding: 'utf8',
+        length: 0,
+        writing: false,
+        corked: 0,
+        sync: true,
+        bufferProcessing: false,
+        onwrite: [Function],
+        writecb: null,
+        writelen: 0,
+        bufferedRequest: null,
+        lastBufferedRequest: null,
+        pendingcb: 0,
+        prefinished: false,
+        errorEmitted: false },
+     writable: true,
+     allowHalfOpen: true,
+     destroyed: false,
+     bytesRead: 0,
+     _bytesDispatched: 0,
+     _sockname: null,
+     _pendingData: null,
+     _pendingEncoding: '',
+     server: 
+      Server {
+        domain: null,
+        _events: [Object],
+        _eventsCount: 5,
+        _maxListeners: undefined,
+        _connections: 1,
+        _handle: [Object],
+        _usingSlaves: false,
+        _slaves: [],
+        _unref: false,
+        allowHalfOpen: true,
+        pauseOnConnect: false,
+        httpAllowHalfOpen: false,
+        timeout: 120000,
+        _pendingResponseData: 0,
+        _connectionKey: '6::::3000' },
+     _idleTimeout: 120000,
+     _idleNext: { _idleNext: [Circular], _idlePrev: [Circular] },
+     _idlePrev: { _idleNext: [Circular], _idlePrev: [Circular] },
+     _idleStart: 913285,
+     parser: 
+      HTTPParser {
+        '0': [Function: parserOnHeaders],
+        '1': [Function: parserOnHeadersComplete],
+        '2': [Function: parserOnBody],
+        '3': [Function: parserOnMessageComplete],
+        '4': [Function: onParserExecute],
+        _headers: [],
+        _url: '',
+        _consumed: true,
+        socket: [Circular],
+        incoming: [Circular],
+        maxHeaderPairs: 2000,
+        onIncoming: [Function: parserOnIncoming] },
+     on: [Function: socketOnWrap],
+     _paused: false,
+     read: [Function],
+     _consuming: true,
+     _httpMessage: 
+      ServerResponse {
+        domain: null,
+        _events: [Object],
+        _eventsCount: 2,
+        _maxListeners: undefined,
+        output: [],
+        outputEncodings: [],
+        outputCallbacks: [],
+        outputSize: 0,
+        writable: true,
+        _last: false,
+        chunkedEncoding: false,
+        shouldKeepAlive: true,
+        useChunkedEncodingByDefault: true,
+        sendDate: true,
+        _removedHeader: {},
+        _contentLength: null,
+        _hasBody: true,
+        _trailer: '',
+        finished: false,
+        _headerSent: false,
+        socket: [Circular],
+        connection: [Circular],
+        _header: null,
+        _headers: [Object],
+        _headerNames: [Object],
+        _onPendingData: [Function: updateOutgoingData],
+        req: [Circular],
+        locals: {},
+        _startAt: undefined,
+        _startTime: undefined,
+        writeHead: [Function: writeHead],
+        __onFinished: [Object] },
+     _peername: { address: '::ffff:45.56.39.189', family: 'IPv6', port: 51056 } },
+  connection: 
+   Socket {
+     _connecting: false,
+     _hadError: false,
+     _handle: 
+      TCP {
+        _externalStream: {},
+        fd: 11,
+        reading: true,
+        owner: [Circular],
+        onread: [Function: onread],
+        onconnection: null,
+        writeQueueSize: 0 },
+     _parent: null,
+     _host: null,
+     _readableState: 
+      ReadableState {
+        objectMode: false,
+        highWaterMark: 16384,
+        buffer: [],
+        length: 0,
+        pipes: null,
+        pipesCount: 0,
+        flowing: true,
+        ended: false,
+        endEmitted: false,
+        reading: true,
+        sync: false,
+        needReadable: true,
+        emittedReadable: false,
+        readableListening: false,
+        defaultEncoding: 'utf8',
+        ranOut: false,
+        awaitDrain: 0,
+        readingMore: false,
+        decoder: null,
+        encoding: null,
+        resumeScheduled: false },
+     readable: true,
+     domain: null,
+     _events: 
+      { end: [Object],
+        finish: [Function: onSocketFinish],
+        _socketEnd: [Function: onSocketEnd],
+        drain: [Object],
+        timeout: [Function],
+        error: [Object],
+        close: [Object],
+        data: [Function: socketOnData],
+        resume: [Function: onSocketResume],
+        pause: [Function: onSocketPause] },
+     _eventsCount: 10,
+     _maxListeners: undefined,
+     _writableState: 
+      WritableState {
+        objectMode: false,
+        highWaterMark: 16384,
+        needDrain: false,
+        ending: false,
+        ended: false,
+        finished: false,
+        decodeStrings: false,
+        defaultEncoding: 'utf8',
+        length: 0,
+        writing: false,
+        corked: 0,
+        sync: true,
+        bufferProcessing: false,
+        onwrite: [Function],
+        writecb: null,
+        writelen: 0,
+        bufferedRequest: null,
+        lastBufferedRequest: null,
+        pendingcb: 0,
+        prefinished: false,
+        errorEmitted: false },
+     writable: true,
+     allowHalfOpen: true,
+     destroyed: false,
+     bytesRead: 0,
+     _bytesDispatched: 0,
+     _sockname: null,
+     _pendingData: null,
+     _pendingEncoding: '',
+     server: 
+      Server {
+        domain: null,
+        _events: [Object],
+        _eventsCount: 5,
+        _maxListeners: undefined,
+        _connections: 1,
+        _handle: [Object],
+        _usingSlaves: false,
+        _slaves: [],
+        _unref: false,
+        allowHalfOpen: true,
+        pauseOnConnect: false,
+        httpAllowHalfOpen: false,
+        timeout: 120000,
+        _pendingResponseData: 0,
+        _connectionKey: '6::::3000' },
+     _idleTimeout: 120000,
+     _idleNext: { _idleNext: [Circular], _idlePrev: [Circular] },
+     _idlePrev: { _idleNext: [Circular], _idlePrev: [Circular] },
+     _idleStart: 913285,
+     parser: 
+      HTTPParser {
+        '0': [Function: parserOnHeaders],
+        '1': [Function: parserOnHeadersComplete],
+        '2': [Function: parserOnBody],
+        '3': [Function: parserOnMessageComplete],
+        '4': [Function: onParserExecute],
+        _headers: [],
+        _url: '',
+        _consumed: true,
+        socket: [Circular],
+        incoming: [Circular],
+        maxHeaderPairs: 2000,
+        onIncoming: [Function: parserOnIncoming] },
+     on: [Function: socketOnWrap],
+     _paused: false,
+     read: [Function],
+     _consuming: true,
+     _httpMessage: 
+      ServerResponse {
+        domain: null,
+        _events: [Object],
+        _eventsCount: 2,
+        _maxListeners: undefined,
+        output: [],
+        outputEncodings: [],
+        outputCallbacks: [],
+        outputSize: 0,
+        writable: true,
+        _last: false,
+        chunkedEncoding: false,
+        shouldKeepAlive: true,
+        useChunkedEncodingByDefault: true,
+        sendDate: true,
+        _removedHeader: {},
+        _contentLength: null,
+        _hasBody: true,
+        _trailer: '',
+        finished: false,
+        _headerSent: false,
+        socket: [Circular],
+        connection: [Circular],
+        _header: null,
+        _headers: [Object],
+        _headerNames: [Object],
+        _onPendingData: [Function: updateOutgoingData],
+        req: [Circular],
+        locals: {},
+        _startAt: undefined,
+        _startTime: undefined,
+        writeHead: [Function: writeHead],
+        __onFinished: [Object] },
+     _peername: { address: '::ffff:45.56.39.189', family: 'IPv6', port: 51056 } },
+  httpVersionMajor: 1,
+  httpVersionMinor: 1,
+  httpVersion: '1.1',
+  complete: true,
+  headers: 
+   { host: 'ec2-52-34-85-168.us-west-2.compute.amazonaws.com:3000',
+     connection: 'keep-alive',
+     'cache-control': 'max-age=0',
+     accept: 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+     'upgrade-insecure-requests': '1',
+     'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 Safari/537.36',
+     'accept-encoding': 'gzip, deflate, sdch',
+     'accept-language': 'en-US,en;q=0.8',
+     'if-none-match': 'W/"9c0-1535f34e9ac"',
+     'if-modified-since': 'Thu, 10 Mar 2016 06:26:56 GMT' },
+  rawHeaders: 
+   [ 'Host',
+     'ec2-52-34-85-168.us-west-2.compute.amazonaws.com:3000',
+     'Connection',
+     'keep-alive',
+     'Cache-Control',
+     'max-age=0',
+     'Accept',
+     'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+     'Upgrade-Insecure-Requests',
+     '1',
+     'User-Agent',
+     'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 Safari/537.36',
+     'Accept-Encoding',
+     'gzip, deflate, sdch',
+     'Accept-Language',
+     'en-US,en;q=0.8',
+     'If-None-Match',
+     'W/"9c0-1535f34e9ac"',
+     'If-Modified-Since',
+     'Thu, 10 Mar 2016 06:26:56 GMT' ],
+  trailers: {},
+  rawTrailers: [],
+  upgrade: false,
+  url: '/',
+  method: 'GET',
+  statusCode: null,
+  statusMessage: null,
+  client: 
+   Socket {
+     _connecting: false,
+     _hadError: false,
+     _handle: 
+      TCP {
+        _externalStream: {},
+        fd: 11,
+        reading: true,
+        owner: [Circular],
+        onread: [Function: onread],
+        onconnection: null,
+        writeQueueSize: 0 },
+     _parent: null,
+     _host: null,
+     _readableState: 
+      ReadableState {
+        objectMode: false,
+        highWaterMark: 16384,
+        buffer: [],
+        length: 0,
+        pipes: null,
+        pipesCount: 0,
+        flowing: true,
+        ended: false,
+        endEmitted: false,
+        reading: true,
+        sync: false,
+        needReadable: true,
+        emittedReadable: false,
+        readableListening: false,
+        defaultEncoding: 'utf8',
+        ranOut: false,
+        awaitDrain: 0,
+        readingMore: false,
+        decoder: null,
+        encoding: null,
+        resumeScheduled: false },
+     readable: true,
+     domain: null,
+     _events: 
+      { end: [Object],
+        finish: [Function: onSocketFinish],
+        _socketEnd: [Function: onSocketEnd],
+        drain: [Object],
+        timeout: [Function],
+        error: [Object],
+        close: [Object],
+        data: [Function: socketOnData],
+        resume: [Function: onSocketResume],
+        pause: [Function: onSocketPause] },
+     _eventsCount: 10,
+     _maxListeners: undefined,
+     _writableState: 
+      WritableState {
+        objectMode: false,
+        highWaterMark: 16384,
+        needDrain: false,
+        ending: false,
+        ended: false,
+        finished: false,
+        decodeStrings: false,
+        defaultEncoding: 'utf8',
+        length: 0,
+        writing: false,
+        corked: 0,
+        sync: true,
+        bufferProcessing: false,
+        onwrite: [Function],
+        writecb: null,
+        writelen: 0,
+        bufferedRequest: null,
+        lastBufferedRequest: null,
+        pendingcb: 0,
+        prefinished: false,
+        errorEmitted: false },
+     writable: true,
+     allowHalfOpen: true,
+     destroyed: false,
+     bytesRead: 0,
+     _bytesDispatched: 0,
+     _sockname: null,
+     _pendingData: null,
+     _pendingEncoding: '',
+     server: 
+      Server {
+        domain: null,
+        _events: [Object],
+        _eventsCount: 5,
+        _maxListeners: undefined,
+        _connections: 1,
+        _handle: [Object],
+        _usingSlaves: false,
+        _slaves: [],
+        _unref: false,
+        allowHalfOpen: true,
+        pauseOnConnect: false,
+        httpAllowHalfOpen: false,
+        timeout: 120000,
+        _pendingResponseData: 0,
+        _connectionKey: '6::::3000' },
+     _idleTimeout: 120000,
+     _idleNext: { _idleNext: [Circular], _idlePrev: [Circular] },
+     _idlePrev: { _idleNext: [Circular], _idlePrev: [Circular] },
+     _idleStart: 913285,
+     parser: 
+      HTTPParser {
+        '0': [Function: parserOnHeaders],
+        '1': [Function: parserOnHeadersComplete],
+        '2': [Function: parserOnBody],
+        '3': [Function: parserOnMessageComplete],
+        '4': [Function: onParserExecute],
+        _headers: [],
+        _url: '',
+        _consumed: true,
+        socket: [Circular],
+        incoming: [Circular],
+        maxHeaderPairs: 2000,
+        onIncoming: [Function: parserOnIncoming] },
+     on: [Function: socketOnWrap],
+     _paused: false,
+     read: [Function],
+     _consuming: true,
+     _httpMessage: 
+      ServerResponse {
+        domain: null,
+        _events: [Object],
+        _eventsCount: 2,
+        _maxListeners: undefined,
+        output: [],
+        outputEncodings: [],
+        outputCallbacks: [],
+        outputSize: 0,
+        writable: true,
+        _last: false,
+        chunkedEncoding: false,
+        shouldKeepAlive: true,
+        useChunkedEncodingByDefault: true,
+        sendDate: true,
+        _removedHeader: {},
+        _contentLength: null,
+        _hasBody: true,
+        _trailer: '',
+        finished: false,
+        _headerSent: false,
+        socket: [Circular],
+        connection: [Circular],
+        _header: null,
+        _headers: [Object],
+        _headerNames: [Object],
+        _onPendingData: [Function: updateOutgoingData],
+        req: [Circular],
+        locals: {},
+        _startAt: undefined,
+        _startTime: undefined,
+        writeHead: [Function: writeHead],
+        __onFinished: [Object] },
+     _peername: { address: '::ffff:45.56.39.189', family: 'IPv6', port: 51056 } },
+  _consuming: false,
+  _dumped: false,
+  next: [Function: next],
+  baseUrl: '',
+  originalUrl: '/',
+  _parsedUrl: 
+   Url {
+     protocol: null,
+     slashes: null,
+     auth: null,
+     host: null,
+     port: null,
+     hostname: null,
+     hash: null,
+     search: null,
+     query: null,
+     pathname: '/',
+     path: '/',
+     href: '/',
+     _raw: '/' },
+  params: {},
+  query: {},
+  res: 
+   ServerResponse {
+     domain: null,
+     _events: { finish: [Object], end: [Function: onevent] },
+     _eventsCount: 2,
+     _maxListeners: undefined,
+     output: [],
+     outputEncodings: [],
+     outputCallbacks: [],
+     outputSize: 0,
+     writable: true,
+     _last: false,
+     chunkedEncoding: false,
+     shouldKeepAlive: true,
+     useChunkedEncodingByDefault: true,
+     sendDate: true,
+     _removedHeader: {},
+     _contentLength: null,
+     _hasBody: true,
+     _trailer: '',
+     finished: false,
+     _headerSent: false,
+     socket: 
+      Socket {
+        _connecting: false,
+        _hadError: false,
+        _handle: [Object],
+        _parent: null,
+        _host: null,
+        _readableState: [Object],
+        readable: true,
+        domain: null,
+        _events: [Object],
+        _eventsCount: 10,
+        _maxListeners: undefined,
+        _writableState: [Object],
+        writable: true,
+        allowHalfOpen: true,
+        destroyed: false,
+        bytesRead: 0,
+        _bytesDispatched: 0,
+        _sockname: null,
+        _pendingData: null,
+        _pendingEncoding: '',
+        server: [Object],
+        _idleTimeout: 120000,
+        _idleNext: [Object],
+        _idlePrev: [Object],
+        _idleStart: 913285,
+        parser: [Object],
+        on: [Function: socketOnWrap],
+        _paused: false,
+        read: [Function],
+        _consuming: true,
+        _httpMessage: [Circular],
+        _peername: [Object] },
+     connection: 
+      Socket {
+        _connecting: false,
+        _hadError: false,
+        _handle: [Object],
+        _parent: null,
+        _host: null,
+        _readableState: [Object],
+        readable: true,
+        domain: null,
+        _events: [Object],
+        _eventsCount: 10,
+        _maxListeners: undefined,
+        _writableState: [Object],
+        writable: true,
+        allowHalfOpen: true,
+        destroyed: false,
+        bytesRead: 0,
+        _bytesDispatched: 0,
+        _sockname: null,
+        _pendingData: null,
+        _pendingEncoding: '',
+        server: [Object],
+        _idleTimeout: 120000,
+        _idleNext: [Object],
+        _idlePrev: [Object],
+        _idleStart: 913285,
+        parser: [Object],
+        on: [Function: socketOnWrap],
+        _paused: false,
+        read: [Function],
+        _consuming: true,
+        _httpMessage: [Circular],
+        _peername: [Object] },
+     _header: null,
+     _headers: { 'x-powered-by': 'Express' },
+     _headerNames: { 'x-powered-by': 'X-Powered-By' },
+     _onPendingData: [Function: updateOutgoingData],
+     req: [Circular],
+     locals: {},
+     _startAt: undefined,
+     _startTime: undefined,
+     writeHead: [Function: writeHead],
+     __onFinished: { [Function: listener] queue: [Object] } },
+  _startAt: [ 3675355, 225316391 ],
+  _startTime: Thu Mar 10 2016 06:49:55 GMT+0000 (UTC),
+  _remoteAddress: '::ffff:45.56.39.189',
+  body: {},
+  secret: undefined,
+  cookies: {},
+  signedCookies: {},
+  _parsedOriginalUrl: 
+   Url {
+     protocol: null,
+     slashes: null,
+     auth: null,
+     host: null,
+     port: null,
+     hostname: null,
+     hash: null,
+     search: null,
+     query: null,
+     pathname: '/',
+     path: '/',
+     href: '/',
+     _raw: '/' },
+  route: Route { path: '/', stack: [ [Object] ], methods: { get: true } } }
+[0mGET / [36m304 [0m33.344 ms - -[0m
+/^P/
+In getcity route
+{ q: 'P' }
+Panguitch
+Paradise
+Paragonah
+Park City
+Park Valley
+Parowan
+Payson
+Peoa
+Pine Valley
+Pleasant Grove
+Plymouth
+Portage
+Price
+Providence
+Provo
+[ { city: 'Panguitch' },
+  { city: 'Paradise' },
+  { city: 'Paragonah' },
+  { city: 'Park City' },
+  { city: 'Park Valley' },
+  { city: 'Parowan' },
+  { city: 'Payson' },
+  { city: 'Peoa' },
+  { city: 'Pine Valley' },
+  { city: 'Pleasant Grove' },
+  { city: 'Plymouth' },
+  { city: 'Portage' },
+  { city: 'Price' },
+  { city: 'Providence' },
+  { city: 'Provo' } ]
+[0mGET /getcity?q=P [36m304 [0m6.135 ms - -[0m
+/^P/
+In getcity route
+{ q: 'P' }
+Panguitch
+Paradise
+Paragonah
+Park City
+Park Valley
+Parowan
+Payson
+Peoa
+Pine Valley
+Pleasant Grove
+Plymouth
+Portage
+Price
+Providence
+Provo
+[ { city: 'Panguitch' },
+  { city: 'Paradise' },
+  { city: 'Paragonah' },
+  { city: 'Park City' },
+  { city: 'Park Valley' },
+  { city: 'Parowan' },
+  { city: 'Payson' },
+  { city: 'Peoa' },
+  { city: 'Pine Valley' },
+  { city: 'Pleasant Grove' },
+  { city: 'Plymouth' },
+  { city: 'Portage' },
+  { city: 'Price' },
+  { city: 'Providence' },
+  { city: 'Provo' } ]
+[0mGET /getcity?q=P [36m304 [0m4.312 ms - -[0m
+/^Pr/
+In getcity route
+{ q: 'Pr' }
+Price
+Providence
+Provo
+[ { city: 'Price' }, { city: 'Providence' }, { city: 'Provo' } ]
+[0mGET /getcity?q=Pr [36m304 [0m1.167 ms - -[0m
+/^Pro/
+In getcity route
+{ q: 'Pro' }
+Providence
+Provo
+[ { city: 'Providence' }, { city: 'Provo' } ]
+[0mGET /getcity?q=Pro [36m304 [0m1.634 ms - -[0m
+/^Provo/
+In getcity route
+{ q: 'Provo' }
+Provo
+[ { city: 'Provo' } ]
+[0mGET /getcity?q=Provo [36m304 [0m1.958 ms - -[0m
+/^Provo/
+In getcity route
+{ q: 'Provo' }
+Provo
+[ { city: 'Provo' } ]
+[0mGET /getcity?q=Provo [36m304 [0m1.587 ms - -[0m
+/^Prov/
+In getcity route
+{ q: 'Prov' }
+Providence
+Provo
+[ { city: 'Providence' }, { city: 'Provo' } ]
+[0mGET /getcity?q=Prov [36m304 [0m2.195 ms - -[0m
+/^Pro/
+In getcity route
+{ q: 'Pro' }
+Providence
+Provo
+[ { city: 'Providence' }, { city: 'Provo' } ]
+[0mGET /getcity?q=Pro [36m304 [0m1.065 ms - -[0m
+/^Pr/
+In getcity route
+{ q: 'Pr' }
+Price
+Providence
+Provo
+[ { city: 'Price' }, { city: 'Providence' }, { city: 'Provo' } ]
+[0mGET /getcity?q=Pr [36m304 [0m0.978 ms - -[0m
+/^P/
+In getcity route
+{ q: 'P' }
+Panguitch
+Paradise
+Paragonah
+Park City
+Park Valley
+Parowan
+Payson
+Peoa
+Pine Valley
+Pleasant Grove
+Plymouth
+Portage
+Price
+Providence
+Provo
+[ { city: 'Panguitch' },
+  { city: 'Paradise' },
+  { city: 'Paragonah' },
+  { city: 'Park City' },
+  { city: 'Park Valley' },
+  { city: 'Parowan' },
+  { city: 'Payson' },
+  { city: 'Peoa' },
+  { city: 'Pine Valley' },
+  { city: 'Pleasant Grove' },
+  { city: 'Plymouth' },
+  { city: 'Portage' },
+  { city: 'Price' },
+  { city: 'Providence' },
+  { city: 'Provo' } ]
+[0mGET /getcity?q=P [36m304 [0m3.979 ms - -[0m
+/^/
+In getcity route
+{ q: '' }
+Alpine
+Altamont
+Alton
+Altonah
+American Fork
+Aneth
+Annabella
+Antimony
+Aurora
+Axtell
+Bear River City
+Beaver
+Beryl
+Bicknell
+Bingham Canyon
+Blanding
+Bluebell
+Bluff
+Bonanza
+Boulder
+Bountiful
+Brian Head
+Brigham City
+Bryce
+Bryce Canyon
+Cache Junction
+Cannonville
+Castle Dale
+Cedar City
+Cedar Valley
+Centerfield
+Centerville
+Central
+Chester
+Circleville
+Cisco
+Clarkston
+Clawson
+Clearfield
+Cleveland
+Clinton
+Coalville
+Collinston
+Corinne
+Cornish
+Croydon
+Dammeron Valley
+Delta
+Deweyville
+Draper
+Duchesne
+Duck Creek Village
+Dugway
+Dutch John
+East Carbon
+Echo
+Eden
+Elberta
+Elmo
+Elsinore
+Emery
+Enterprise
+Ephraim
+Escalante
+Eureka
+Fairview
+Farmington
+Fayette
+Ferron
+Fielding
+Fillmore
+Fort Duchesne
+Fountain Green
+Fruitland
+Garden City
+Garland
+Garrison
+Glendale
+Glenwood
+Goshen
+Grantsville
+Green River
+Greenville
+Greenwich
+Grouse Creek
+Gunlock
+Gunnison
+Gusher
+Hanksville
+Hanna
+Hatch
+Heber City
+Helper
+Henefer
+Henrieville
+Hiawatha
+Hildale
+Hill AFB
+Hinckley
+Holden
+Honeyville
+Hooper
+Howell
+Huntington
+Huntsville
+Hurricane
+Hyde Park
+Hyrum
+Ibapah
+Ivins
+Jensen
+Joseph
+Junction
+Kamas
+Kanab
+Kanarraville
+Kanosh
+Kaysville
+Kenilworth
+Kingston
+Koosharem
+La Sal
+La Verkin
+Lake Powell
+Laketown
+Lapoint
+Layton
+Leamington
+Leeds
+Lehi
+Levan
+Lewiston
+Lindon
+Loa
+Logan
+Lyman
+Lynndyl
+Magna
+Manila
+Manti
+Mantua
+Mapleton
+Marysvale
+Mayfield
+Meadow
+Mendon
+Mexican Hat
+Midvale
+Midway
+Milford
+Millville
+Minersville
+Moab
+Modena
+Mona
+Monroe
+Montezuma Creek
+Monticello
+Morgan
+Moroni
+Mount Carmel
+Mount Pleasant
+Mountain Home
+Myton
+Neola
+Nephi
+New Harmony
+Newcastle
+Newton
+North Salt Lake
+Oak City
+Oakley
+Oasis
+Ogden
+Orangeville
+Orderville
+Orem
+Panguitch
+Paradise
+Paragonah
+Park City
+Park Valley
+Parowan
+Payson
+Peoa
+Pine Valley
+Pleasant Grove
+Plymouth
+Portage
+Price
+Providence
+Provo
+Randlett
+Randolph
+Redmond
+Richfield
+Richmond
+Riverside
+Riverton
+Rockville
+Roosevelt
+Roy
+Rush Valley
+Saint George
+Salem
+Salina
+Salt Lake City
+Sandy
+Santa Clara
+Santaquin
+Scipio
+Sevier
+Sigurd
+Smithfield
+Snowville
+South Jordan
+South Willard
+Spanish Fork
+Spring City
+Springdale
+Springville
+Sterling
+Stockton
+Summit
+Sunnyside
+Syracuse
+Tabiona
+Talmage
+Teasdale
+Thompson
+Tooele
+Toquerville
+Torrey
+Tremonton
+Trenton
+Tridell
+Tropic
+Vernal
+Vernon
+Veyo
+Virgin
+Wales
+Wallsburg
+Washington
+Wellington
+Wellsville
+Wendover
+West Jordan
+Whiterocks
+Willard
+Woodruff
+Woods Cross
+
+[ { city: 'Alpine' },
+  { city: 'Altamont' },
+  { city: 'Alton' },
+  { city: 'Altonah' },
+  { city: 'American Fork' },
+  { city: 'Aneth' },
+  { city: 'Annabella' },
+  { city: 'Antimony' },
+  { city: 'Aurora' },
+  { city: 'Axtell' },
+  { city: 'Bear River City' },
+  { city: 'Beaver' },
+  { city: 'Beryl' },
+  { city: 'Bicknell' },
+  { city: 'Bingham Canyon' },
+  { city: 'Blanding' },
+  { city: 'Bluebell' },
+  { city: 'Bluff' },
+  { city: 'Bonanza' },
+  { city: 'Boulder' },
+  { city: 'Bountiful' },
+  { city: 'Brian Head' },
+  { city: 'Brigham City' },
+  { city: 'Bryce' },
+  { city: 'Bryce Canyon' },
+  { city: 'Cache Junction' },
+  { city: 'Cannonville' },
+  { city: 'Castle Dale' },
+  { city: 'Cedar City' },
+  { city: 'Cedar Valley' },
+  { city: 'Centerfield' },
+  { city: 'Centerville' },
+  { city: 'Central' },
+  { city: 'Chester' },
+  { city: 'Circleville' },
+  { city: 'Cisco' },
+  { city: 'Clarkston' },
+  { city: 'Clawson' },
+  { city: 'Clearfield' },
+  { city: 'Cleveland' },
+  { city: 'Clinton' },
+  { city: 'Coalville' },
+  { city: 'Collinston' },
+  { city: 'Corinne' },
+  { city: 'Cornish' },
+  { city: 'Croydon' },
+  { city: 'Dammeron Valley' },
+  { city: 'Delta' },
+  { city: 'Deweyville' },
+  { city: 'Draper' },
+  { city: 'Duchesne' },
+  { city: 'Duck Creek Village' },
+  { city: 'Dugway' },
+  { city: 'Dutch John' },
+  { city: 'East Carbon' },
+  { city: 'Echo' },
+  { city: 'Eden' },
+  { city: 'Elberta' },
+  { city: 'Elmo' },
+  { city: 'Elsinore' },
+  { city: 'Emery' },
+  { city: 'Enterprise' },
+  { city: 'Ephraim' },
+  { city: 'Escalante' },
+  { city: 'Eureka' },
+  { city: 'Fairview' },
+  { city: 'Farmington' },
+  { city: 'Fayette' },
+  { city: 'Ferron' },
+  { city: 'Fielding' },
+  { city: 'Fillmore' },
+  { city: 'Fort Duchesne' },
+  { city: 'Fountain Green' },
+  { city: 'Fruitland' },
+  { city: 'Garden City' },
+  { city: 'Garland' },
+  { city: 'Garrison' },
+  { city: 'Glendale' },
+  { city: 'Glenwood' },
+  { city: 'Goshen' },
+  { city: 'Grantsville' },
+  { city: 'Green River' },
+  { city: 'Greenville' },
+  { city: 'Greenwich' },
+  { city: 'Grouse Creek' },
+  { city: 'Gunlock' },
+  { city: 'Gunnison' },
+  { city: 'Gusher' },
+  { city: 'Hanksville' },
+  { city: 'Hanna' },
+  { city: 'Hatch' },
+  { city: 'Heber City' },
+  { city: 'Helper' },
+  { city: 'Henefer' },
+  { city: 'Henrieville' },
+  { city: 'Hiawatha' },
+  { city: 'Hildale' },
+  { city: 'Hill AFB' },
+  { city: 'Hinckley' },
+  { city: 'Holden' },
+  { city: 'Honeyville' },
+  { city: 'Hooper' },
+  { city: 'Howell' },
+  { city: 'Huntington' },
+  { city: 'Huntsville' },
+  { city: 'Hurricane' },
+  { city: 'Hyde Park' },
+  { city: 'Hyrum' },
+  { city: 'Ibapah' },
+  { city: 'Ivins' },
+  { city: 'Jensen' },
+  { city: 'Joseph' },
+  { city: 'Junction' },
+  { city: 'Kamas' },
+  { city: 'Kanab' },
+  { city: 'Kanarraville' },
+  { city: 'Kanosh' },
+  { city: 'Kaysville' },
+  { city: 'Kenilworth' },
+  { city: 'Kingston' },
+  { city: 'Koosharem' },
+  { city: 'La Sal' },
+  { city: 'La Verkin' },
+  { city: 'Lake Powell' },
+  { city: 'Laketown' },
+  { city: 'Lapoint' },
+  { city: 'Layton' },
+  { city: 'Leamington' },
+  { city: 'Leeds' },
+  { city: 'Lehi' },
+  { city: 'Levan' },
+  { city: 'Lewiston' },
+  { city: 'Lindon' },
+  { city: 'Loa' },
+  { city: 'Logan' },
+  { city: 'Lyman' },
+  { city: 'Lynndyl' },
+  { city: 'Magna' },
+  { city: 'Manila' },
+  { city: 'Manti' },
+  { city: 'Mantua' },
+  { city: 'Mapleton' },
+  { city: 'Marysvale' },
+  { city: 'Mayfield' },
+  { city: 'Meadow' },
+  { city: 'Mendon' },
+  { city: 'Mexican Hat' },
+  { city: 'Midvale' },
+  { city: 'Midway' },
+  { city: 'Milford' },
+  { city: 'Millville' },
+  { city: 'Minersville' },
+  { city: 'Moab' },
+  { city: 'Modena' },
+  { city: 'Mona' },
+  { city: 'Monroe' },
+  { city: 'Montezuma Creek' },
+  { city: 'Monticello' },
+  { city: 'Morgan' },
+  { city: 'Moroni' },
+  { city: 'Mount Carmel' },
+  { city: 'Mount Pleasant' },
+  { city: 'Mountain Home' },
+  { city: 'Myton' },
+  { city: 'Neola' },
+  { city: 'Nephi' },
+  { city: 'New Harmony' },
+  { city: 'Newcastle' },
+  { city: 'Newton' },
+  { city: 'North Salt Lake' },
+  { city: 'Oak City' },
+  { city: 'Oakley' },
+  { city: 'Oasis' },
+  { city: 'Ogden' },
+  { city: 'Orangeville' },
+  { city: 'Orderville' },
+  { city: 'Orem' },
+  { city: 'Panguitch' },
+  { city: 'Paradise' },
+  { city: 'Paragonah' },
+  { city: 'Park City' },
+  { city: 'Park Valley' },
+  { city: 'Parowan' },
+  { city: 'Payson' },
+  { city: 'Peoa' },
+  { city: 'Pine Valley' },
+  { city: 'Pleasant Grove' },
+  { city: 'Plymouth' },
+  { city: 'Portage' },
+  { city: 'Price' },
+  { city: 'Providence' },
+  { city: 'Provo' },
+  { city: 'Randlett' },
+  { city: 'Randolph' },
+  { city: 'Redmond' },
+  { city: 'Richfield' },
+  { city: 'Richmond' },
+  { city: 'Riverside' },
+  { city: 'Riverton' },
+  { city: 'Rockville' },
+  { city: 'Roosevelt' },
+  { city: 'Roy' },
+  { city: 'Rush Valley' },
+  { city: 'Saint George' },
+  { city: 'Salem' },
+  { city: 'Salina' },
+  { city: 'Salt Lake City' },
+  { city: 'Sandy' },
+  { city: 'Santa Clara' },
+  { city: 'Santaquin' },
+  { city: 'Scipio' },
+  { city: 'Sevier' },
+  { city: 'Sigurd' },
+  { city: 'Smithfield' },
+  { city: 'Snowville' },
+  { city: 'South Jordan' },
+  { city: 'South Willard' },
+  { city: 'Spanish Fork' },
+  { city: 'Spring City' },
+  { city: 'Springdale' },
+  { city: 'Springville' },
+  { city: 'Sterling' },
+  { city: 'Stockton' },
+  { city: 'Summit' },
+  { city: 'Sunnyside' },
+  { city: 'Syracuse' },
+  { city: 'Tabiona' },
+  { city: 'Talmage' },
+  { city: 'Teasdale' },
+  { city: 'Thompson' },
+  { city: 'Tooele' },
+  { city: 'Toquerville' },
+  { city: 'Torrey' },
+  { city: 'Tremonton' },
+  { city: 'Trenton' },
+  { city: 'Tridell' },
+  { city: 'Tropic' },
+  { city: 'Vernal' },
+  { city: 'Vernon' },
+  { city: 'Veyo' },
+  { city: 'Virgin' },
+  { city: 'Wales' },
+  { city: 'Wallsburg' },
+  { city: 'Washington' },
+  { city: 'Wellington' },
+  { city: 'Wellsville' },
+  { city: 'Wendover' },
+  { city: 'West Jordan' },
+  { city: 'Whiterocks' },
+  { city: 'Willard' },
+  { city: 'Woodruff' },
+  { city: 'Woods Cross' },
+  { city: '' } ]
+[0mGET /getcity?q= [36m304 [0m17.895 ms - -[0m
+/^b/
+In getcity route
+{ q: 'b' }
+[]
+[0mGET /getcity?q=b [32m200 [0m1.240 ms - 2[0m
+/^bou/
+In getcity route
+{ q: 'bou' }
+[]
+[0mGET /getcity?q=bou [32m200 [0m1.687 ms - 2[0m
+/^bou/
+In getcity route
+{ q: 'bou' }
+[]
+[0mGET /getcity?q=bou [36m304 [0m0.798 ms - -[0m
+/^boun/
+In getcity route
+{ q: 'boun' }
+[]
+[0mGET /getcity?q=boun [32m200 [0m2.906 ms - 2[0m
+/^bount/
+In getcity route
+{ q: 'bount' }
+[]
+[0mGET /getcity?q=bount [32m200 [0m1.013 ms - 2[0m
+/^bounti/
+In getcity route
+{ q: 'bounti' }
+[]
+[0mGET /getcity?q=bounti [32m200 [0m0.929 ms - 2[0m
+/^bount/
+In getcity route
+{ q: 'bount' }
+[]
+[0mGET /getcity?q=bount [36m304 [0m1.292 ms - -[0m
+/^boun/
+In getcity route
+{ q: 'boun' }
+[]
+[0mGET /getcity?q=boun [36m304 [0m0.867 ms - -[0m
+/^bou/
+In getcity route
+{ q: 'bou' }
+[]
+[0mGET /getcity?q=bou [36m304 [0m1.498 ms - -[0m
+/^bo/
+In getcity route
+{ q: 'bo' }
+[]
+[0mGET /getcity?q=bo [32m200 [0m1.775 ms - 2[0m
+/^b/
+In getcity route
+{ q: 'b' }
+[]
+[0mGET /getcity?q=b [36m304 [0m0.951 ms - -[0m
+/^/
+In getcity route
+{ q: '' }
+Alpine
+Altamont
+Alton
+Altonah
+American Fork
+Aneth
+Annabella
+Antimony
+Aurora
+Axtell
+Bear River City
+Beaver
+Beryl
+Bicknell
+Bingham Canyon
+Blanding
+Bluebell
+Bluff
+Bonanza
+Boulder
+Bountiful
+Brian Head
+Brigham City
+Bryce
+Bryce Canyon
+Cache Junction
+Cannonville
+Castle Dale
+Cedar City
+Cedar Valley
+Centerfield
+Centerville
+Central
+Chester
+Circleville
+Cisco
+Clarkston
+Clawson
+Clearfield
+Cleveland
+Clinton
+Coalville
+Collinston
+Corinne
+Cornish
+Croydon
+Dammeron Valley
+Delta
+Deweyville
+Draper
+Duchesne
+Duck Creek Village
+Dugway
+Dutch John
+East Carbon
+Echo
+Eden
+Elberta
+Elmo
+Elsinore
+Emery
+Enterprise
+Ephraim
+Escalante
+Eureka
+Fairview
+Farmington
+Fayette
+Ferron
+Fielding
+Fillmore
+Fort Duchesne
+Fountain Green
+Fruitland
+Garden City
+Garland
+Garrison
+Glendale
+Glenwood
+Goshen
+Grantsville
+Green River
+Greenville
+Greenwich
+Grouse Creek
+Gunlock
+Gunnison
+Gusher
+Hanksville
+Hanna
+Hatch
+Heber City
+Helper
+Henefer
+Henrieville
+Hiawatha
+Hildale
+Hill AFB
+Hinckley
+Holden
+Honeyville
+Hooper
+Howell
+Huntington
+Huntsville
+Hurricane
+Hyde Park
+Hyrum
+Ibapah
+Ivins
+Jensen
+Joseph
+Junction
+Kamas
+Kanab
+Kanarraville
+Kanosh
+Kaysville
+Kenilworth
+Kingston
+Koosharem
+La Sal
+La Verkin
+Lake Powell
+Laketown
+Lapoint
+Layton
+Leamington
+Leeds
+Lehi
+Levan
+Lewiston
+Lindon
+Loa
+Logan
+Lyman
+Lynndyl
+Magna
+Manila
+Manti
+Mantua
+Mapleton
+Marysvale
+Mayfield
+Meadow
+Mendon
+Mexican Hat
+Midvale
+Midway
+Milford
+Millville
+Minersville
+Moab
+Modena
+Mona
+Monroe
+Montezuma Creek
+Monticello
+Morgan
+Moroni
+Mount Carmel
+Mount Pleasant
+Mountain Home
+Myton
+Neola
+Nephi
+New Harmony
+Newcastle
+Newton
+North Salt Lake
+Oak City
+Oakley
+Oasis
+Ogden
+Orangeville
+Orderville
+Orem
+Panguitch
+Paradise
+Paragonah
+Park City
+Park Valley
+Parowan
+Payson
+Peoa
+Pine Valley
+Pleasant Grove
+Plymouth
+Portage
+Price
+Providence
+Provo
+Randlett
+Randolph
+Redmond
+Richfield
+Richmond
+Riverside
+Riverton
+Rockville
+Roosevelt
+Roy
+Rush Valley
+Saint George
+Salem
+Salina
+Salt Lake City
+Sandy
+Santa Clara
+Santaquin
+Scipio
+Sevier
+Sigurd
+Smithfield
+Snowville
+South Jordan
+South Willard
+Spanish Fork
+Spring City
+Springdale
+Springville
+Sterling
+Stockton
+Summit
+Sunnyside
+Syracuse
+Tabiona
+Talmage
+Teasdale
+Thompson
+Tooele
+Toquerville
+Torrey
+Tremonton
+Trenton
+Tridell
+Tropic
+Vernal
+Vernon
+Veyo
+Virgin
+Wales
+Wallsburg
+Washington
+Wellington
+Wellsville
+Wendover
+West Jordan
+Whiterocks
+Willard
+Woodruff
+Woods Cross
+
+[ { city: 'Alpine' },
+  { city: 'Altamont' },
+  { city: 'Alton' },
+  { city: 'Altonah' },
+  { city: 'American Fork' },
+  { city: 'Aneth' },
+  { city: 'Annabella' },
+  { city: 'Antimony' },
+  { city: 'Aurora' },
+  { city: 'Axtell' },
+  { city: 'Bear River City' },
+  { city: 'Beaver' },
+  { city: 'Beryl' },
+  { city: 'Bicknell' },
+  { city: 'Bingham Canyon' },
+  { city: 'Blanding' },
+  { city: 'Bluebell' },
+  { city: 'Bluff' },
+  { city: 'Bonanza' },
+  { city: 'Boulder' },
+  { city: 'Bountiful' },
+  { city: 'Brian Head' },
+  { city: 'Brigham City' },
+  { city: 'Bryce' },
+  { city: 'Bryce Canyon' },
+  { city: 'Cache Junction' },
+  { city: 'Cannonville' },
+  { city: 'Castle Dale' },
+  { city: 'Cedar City' },
+  { city: 'Cedar Valley' },
+  { city: 'Centerfield' },
+  { city: 'Centerville' },
+  { city: 'Central' },
+  { city: 'Chester' },
+  { city: 'Circleville' },
+  { city: 'Cisco' },
+  { city: 'Clarkston' },
+  { city: 'Clawson' },
+  { city: 'Clearfield' },
+  { city: 'Cleveland' },
+  { city: 'Clinton' },
+  { city: 'Coalville' },
+  { city: 'Collinston' },
+  { city: 'Corinne' },
+  { city: 'Cornish' },
+  { city: 'Croydon' },
+  { city: 'Dammeron Valley' },
+  { city: 'Delta' },
+  { city: 'Deweyville' },
+  { city: 'Draper' },
+  { city: 'Duchesne' },
+  { city: 'Duck Creek Village' },
+  { city: 'Dugway' },
+  { city: 'Dutch John' },
+  { city: 'East Carbon' },
+  { city: 'Echo' },
+  { city: 'Eden' },
+  { city: 'Elberta' },
+  { city: 'Elmo' },
+  { city: 'Elsinore' },
+  { city: 'Emery' },
+  { city: 'Enterprise' },
+  { city: 'Ephraim' },
+  { city: 'Escalante' },
+  { city: 'Eureka' },
+  { city: 'Fairview' },
+  { city: 'Farmington' },
+  { city: 'Fayette' },
+  { city: 'Ferron' },
+  { city: 'Fielding' },
+  { city: 'Fillmore' },
+  { city: 'Fort Duchesne' },
+  { city: 'Fountain Green' },
+  { city: 'Fruitland' },
+  { city: 'Garden City' },
+  { city: 'Garland' },
+  { city: 'Garrison' },
+  { city: 'Glendale' },
+  { city: 'Glenwood' },
+  { city: 'Goshen' },
+  { city: 'Grantsville' },
+  { city: 'Green River' },
+  { city: 'Greenville' },
+  { city: 'Greenwich' },
+  { city: 'Grouse Creek' },
+  { city: 'Gunlock' },
+  { city: 'Gunnison' },
+  { city: 'Gusher' },
+  { city: 'Hanksville' },
+  { city: 'Hanna' },
+  { city: 'Hatch' },
+  { city: 'Heber City' },
+  { city: 'Helper' },
+  { city: 'Henefer' },
+  { city: 'Henrieville' },
+  { city: 'Hiawatha' },
+  { city: 'Hildale' },
+  { city: 'Hill AFB' },
+  { city: 'Hinckley' },
+  { city: 'Holden' },
+  { city: 'Honeyville' },
+  { city: 'Hooper' },
+  { city: 'Howell' },
+  { city: 'Huntington' },
+  { city: 'Huntsville' },
+  { city: 'Hurricane' },
+  { city: 'Hyde Park' },
+  { city: 'Hyrum' },
+  { city: 'Ibapah' },
+  { city: 'Ivins' },
+  { city: 'Jensen' },
+  { city: 'Joseph' },
+  { city: 'Junction' },
+  { city: 'Kamas' },
+  { city: 'Kanab' },
+  { city: 'Kanarraville' },
+  { city: 'Kanosh' },
+  { city: 'Kaysville' },
+  { city: 'Kenilworth' },
+  { city: 'Kingston' },
+  { city: 'Koosharem' },
+  { city: 'La Sal' },
+  { city: 'La Verkin' },
+  { city: 'Lake Powell' },
+  { city: 'Laketown' },
+  { city: 'Lapoint' },
+  { city: 'Layton' },
+  { city: 'Leamington' },
+  { city: 'Leeds' },
+  { city: 'Lehi' },
+  { city: 'Levan' },
+  { city: 'Lewiston' },
+  { city: 'Lindon' },
+  { city: 'Loa' },
+  { city: 'Logan' },
+  { city: 'Lyman' },
+  { city: 'Lynndyl' },
+  { city: 'Magna' },
+  { city: 'Manila' },
+  { city: 'Manti' },
+  { city: 'Mantua' },
+  { city: 'Mapleton' },
+  { city: 'Marysvale' },
+  { city: 'Mayfield' },
+  { city: 'Meadow' },
+  { city: 'Mendon' },
+  { city: 'Mexican Hat' },
+  { city: 'Midvale' },
+  { city: 'Midway' },
+  { city: 'Milford' },
+  { city: 'Millville' },
+  { city: 'Minersville' },
+  { city: 'Moab' },
+  { city: 'Modena' },
+  { city: 'Mona' },
+  { city: 'Monroe' },
+  { city: 'Montezuma Creek' },
+  { city: 'Monticello' },
+  { city: 'Morgan' },
+  { city: 'Moroni' },
+  { city: 'Mount Carmel' },
+  { city: 'Mount Pleasant' },
+  { city: 'Mountain Home' },
+  { city: 'Myton' },
+  { city: 'Neola' },
+  { city: 'Nephi' },
+  { city: 'New Harmony' },
+  { city: 'Newcastle' },
+  { city: 'Newton' },
+  { city: 'North Salt Lake' },
+  { city: 'Oak City' },
+  { city: 'Oakley' },
+  { city: 'Oasis' },
+  { city: 'Ogden' },
+  { city: 'Orangeville' },
+  { city: 'Orderville' },
+  { city: 'Orem' },
+  { city: 'Panguitch' },
+  { city: 'Paradise' },
+  { city: 'Paragonah' },
+  { city: 'Park City' },
+  { city: 'Park Valley' },
+  { city: 'Parowan' },
+  { city: 'Payson' },
+  { city: 'Peoa' },
+  { city: 'Pine Valley' },
+  { city: 'Pleasant Grove' },
+  { city: 'Plymouth' },
+  { city: 'Portage' },
+  { city: 'Price' },
+  { city: 'Providence' },
+  { city: 'Provo' },
+  { city: 'Randlett' },
+  { city: 'Randolph' },
+  { city: 'Redmond' },
+  { city: 'Richfield' },
+  { city: 'Richmond' },
+  { city: 'Riverside' },
+  { city: 'Riverton' },
+  { city: 'Rockville' },
+  { city: 'Roosevelt' },
+  { city: 'Roy' },
+  { city: 'Rush Valley' },
+  { city: 'Saint George' },
+  { city: 'Salem' },
+  { city: 'Salina' },
+  { city: 'Salt Lake City' },
+  { city: 'Sandy' },
+  { city: 'Santa Clara' },
+  { city: 'Santaquin' },
+  { city: 'Scipio' },
+  { city: 'Sevier' },
+  { city: 'Sigurd' },
+  { city: 'Smithfield' },
+  { city: 'Snowville' },
+  { city: 'South Jordan' },
+  { city: 'South Willard' },
+  { city: 'Spanish Fork' },
+  { city: 'Spring City' },
+  { city: 'Springdale' },
+  { city: 'Springville' },
+  { city: 'Sterling' },
+  { city: 'Stockton' },
+  { city: 'Summit' },
+  { city: 'Sunnyside' },
+  { city: 'Syracuse' },
+  { city: 'Tabiona' },
+  { city: 'Talmage' },
+  { city: 'Teasdale' },
+  { city: 'Thompson' },
+  { city: 'Tooele' },
+  { city: 'Toquerville' },
+  { city: 'Torrey' },
+  { city: 'Tremonton' },
+  { city: 'Trenton' },
+  { city: 'Tridell' },
+  { city: 'Tropic' },
+  { city: 'Vernal' },
+  { city: 'Vernon' },
+  { city: 'Veyo' },
+  { city: 'Virgin' },
+  { city: 'Wales' },
+  { city: 'Wallsburg' },
+  { city: 'Washington' },
+  { city: 'Wellington' },
+  { city: 'Wellsville' },
+  { city: 'Wendover' },
+  { city: 'West Jordan' },
+  { city: 'Whiterocks' },
+  { city: 'Willard' },
+  { city: 'Woodruff' },
+  { city: 'Woods Cross' },
+  { city: '' } ]
+[0mGET /getcity?q= [36m304 [0m8.456 ms - -[0m
+/^B/
+In getcity route
+{ q: 'B' }
+Bear River City
+Beaver
+Beryl
+Bicknell
+Bingham Canyon
+Blanding
+Bluebell
+Bluff
+Bonanza
+Boulder
+Bountiful
+Brian Head
+Brigham City
+Bryce
+Bryce Canyon
+[ { city: 'Bear River City' },
+  { city: 'Beaver' },
+  { city: 'Beryl' },
+  { city: 'Bicknell' },
+  { city: 'Bingham Canyon' },
+  { city: 'Blanding' },
+  { city: 'Bluebell' },
+  { city: 'Bluff' },
+  { city: 'Bonanza' },
+  { city: 'Boulder' },
+  { city: 'Bountiful' },
+  { city: 'Brian Head' },
+  { city: 'Brigham City' },
+  { city: 'Bryce' },
+  { city: 'Bryce Canyon' } ]
+[0mGET /getcity?q=B [32m200 [0m2.902 ms - 312[0m
+/^B/
+In getcity route
+{ q: 'B' }
+Bear River City
+Beaver
+Beryl
+Bicknell
+Bingham Canyon
+Blanding
+Bluebell
+Bluff
+Bonanza
+Boulder
+Bountiful
+Brian Head
+Brigham City
+Bryce
+Bryce Canyon
+[ { city: 'Bear River City' },
+  { city: 'Beaver' },
+  { city: 'Beryl' },
+  { city: 'Bicknell' },
+  { city: 'Bingham Canyon' },
+  { city: 'Blanding' },
+  { city: 'Bluebell' },
+  { city: 'Bluff' },
+  { city: 'Bonanza' },
+  { city: 'Boulder' },
+  { city: 'Bountiful' },
+  { city: 'Brian Head' },
+  { city: 'Brigham City' },
+  { city: 'Bryce' },
+  { city: 'Bryce Canyon' } ]
+[0mGET /getcity?q=B [36m304 [0m1.495 ms - -[0m
+/^Bou/
+In getcity route
+{ q: 'Bou' }
+Boulder
+Bountiful
+[ { city: 'Boulder' }, { city: 'Bountiful' } ]
+[0mGET /getcity?q=Bou [32m200 [0m1.786 ms - 41[0m
+/^Bou/
+In getcity route
+{ q: 'Bou' }
+Boulder
+Bountiful
+[ { city: 'Boulder' }, { city: 'Bountiful' } ]
+[0mGET /getcity?q=Bou [36m304 [0m2.269 ms - -[0m
+/^Boun/
+In getcity route
+{ q: 'Boun' }
+Bountiful
+[ { city: 'Bountiful' } ]
+[0mGET /getcity?q=Boun [32m200 [0m1.156 ms - 22[0m
+/^Bount/
+In getcity route
+{ q: 'Bount' }
+Bountiful
+[ { city: 'Bountiful' } ]
+[0mGET /getcity?q=Bount [32m200 [0m1.109 ms - 22[0m
+/^Bounti/
+In getcity route
+{ q: 'Bounti' }
+Bountiful
+[ { city: 'Bountiful' } ]
+[0mGET /getcity?q=Bounti [32m200 [0m1.149 ms - 22[0m
+/^Bountif/
+In getcity route
+{ q: 'Bountif' }
+Bountiful
+[ { city: 'Bountiful' } ]
+[0mGET /getcity?q=Bountif [32m200 [0m1.106 ms - 22[0m
+/^Bountifu/
+In getcity route
+{ q: 'Bountifu' }
+Bountiful
+[ { city: 'Bountiful' } ]
+[0mGET /getcity?q=Bountifu [32m200 [0m2.299 ms - 22[0m
+/^Bountiful/
+In getcity route
+{ q: 'Bountiful' }
+Bountiful
+[ { city: 'Bountiful' } ]
+[0mGET /getcity?q=Bountiful [32m200 [0m1.087 ms - 22[0m
+Terminated
+
+npm ERR! Linux 3.13.0-71-generic
+npm ERR! argv "/opt/bitnami/nodejs/bin/.node.bin" "/opt/bitnami/nodejs/bin/npm" "start"
+npm ERR! node v5.1.1
+npm ERR! npm  v3.3.12
+npm ERR! code ELIFECYCLE
+npm ERR! cities@0.0.0 start: `node ./bin/www`
+npm ERR! Exit status 143
+npm ERR! 
+npm ERR! Failed at the cities@0.0.0 start script 'node ./bin/www'.
+npm ERR! Make sure you have the latest version of node.js and npm installed.
+npm ERR! If you do, this is most likely a problem with the cities package,
+npm ERR! not with npm itself.
+npm ERR! Tell the author that this fails on your system:
+npm ERR!     node ./bin/www
+npm ERR! You can get their info via:
+npm ERR!     npm owner ls cities
+npm ERR! There is likely additional logging output above.
+
+npm ERR! Please include the following file with any support request:
+npm ERR!     /home/bitnami/inclass/cities/npm-debug.log
