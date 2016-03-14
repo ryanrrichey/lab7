@@ -39,8 +39,9 @@ $(document).ready(function() {
 	
 	$("#button2").click(function(e){
 	  var value = $("#userfield").val();
-  	  var urlbase =  "https://api.github.com/users/";
-	  urlbase+= value;
+  	  //var urlbase =  "https://api.github.com/users/";
+	  var urlbase =  "/getgithub?username="+value;
+	  //urlbase+= value;
 	  
 	  
   	  $.ajax({url: urlbase,

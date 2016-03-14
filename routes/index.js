@@ -1,6 +1,7 @@
 var express = require('express');
 var router = express.Router();
 var fs = require('fs');
+var request = require('request');
 router.use(express.static('public'));
 /* GET home page. */
 router.get('/', function(req, res, next) {
@@ -14,32 +15,19 @@ router.get('/', function(req, res, next) {
 // });
 
 
-router.get('/getgit',function(req,res,next)
+router.get('/getgithub',function(req,res,next)
 {
-	
+	var username = req.query.username;
 	var githubjunk = [];
 	console.log("in getgit");
-	//fs.readFile("https://api.github.com/users/ryanrrichey",function(err,data) {
-    	//if(err) throw err;
- 		// for(var i=0;i<data.length; i++){
-// 			if (data[i] == "login")
-// 			{
-// 				githubjunk.push(data[i]);
-// 			}
-// 			if (data[i] == "url")
-// 			{
-// 				githubjunk.push(data[i]);
-// 			}
-// 			if (data[i] == "followers")
-// 			{
-// 				githubjunk.push(data[i]);
-// 			}
-//
-// 		}
-// 		//githubjunk.
-		console.log(githubjunk);
-		res.status(200).json(githubjunk);
-	});
+	var options = {
+		url: "https://api.github.com/users/"+username,
+		headers: {
+			'User-Agent': 'request'
+		}
+	}
+	request(options).pipe(res);
+});
 	
 	
 router.get('/getcity',function(req,res,next) {
